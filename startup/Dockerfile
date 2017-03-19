@@ -14,4 +14,5 @@ ENTRYPOINT make --makefile /usr/lib/hue/tools/start_scripts/start_deps.mf -B Sta
     /etc/init.d/tutorials start && \
     /etc/init.d/splash && \
     /etc/init.d/shellinaboxd start && \
+	echo Startup complete && \
 	storm logviewer
